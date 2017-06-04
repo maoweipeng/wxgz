@@ -1,0 +1,9 @@
+@extends('app');
+@section('content')
+    <hr>
+    <h1>用户ID:{{$id}}</h1>
+    <hr>
+    <h1>用户名:{{$name}}</h1>
+    <hr>
+    <h1>Email:{{$email}}</h1>
+@stop
