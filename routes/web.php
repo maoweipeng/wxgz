@@ -28,3 +28,14 @@ Route::get('/personal', 'WwController@personal');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+//create by maoweipeng///////////////////////////////////////////////////////////
+Route::group(['middleware'=>['web']],function(){//中间件路由组
+    Route::get('/menu','MenuController@menu');
+    Route::get('/message','MessageController@sendText');
+});
+
+Route::any('/wechat', 'WechatController@serve');
+Route::any('/test', 'WechatController@test');
+
+/////////////////////////////////////////////////////////////////////////////////
