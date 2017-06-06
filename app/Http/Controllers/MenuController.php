@@ -24,7 +24,7 @@ class MenuController extends Controller
                 "type" => "view",
                 "name" => "图书借阅",
                 "key" => "menu1",
-                "url" => "https://www.gdouplh.cn/index",
+                "url" => "https://www.gdouplh.cn/main",
             ],
             [
                 "name" => "主菜单",
@@ -35,13 +35,6 @@ class MenuController extends Controller
                         "url" => "http://www.baidu.com/",
                         "key" => "rselfmenu_0_0",
                         "sub_button" => []
-                    ],
-                    [
-                        "type" => "view",
-                        "name" => "视频",
-                        "url" => "http://v.qq.com/",
-                        "sub_button" => [],
-                        "key" => "rselfmenu_0_1"
                     ],
                     [
 
@@ -73,13 +66,6 @@ class MenuController extends Controller
                         "url" => "https://www.maoweipeng.cn",
                         "key" => "rselfmenu_0_5",
                         "sub_button" => []
-                    ],
-                    [
-                        "type" => "view",
-                        "name" => "论坛",
-                        "url" => "http://112.74.201.196/discuz/forum.php",
-                        "sub_button" => [],
-                        "key" => "rselfmenu_0_6"
                     ],
                     [
                         "type" => "location_select",
