@@ -178,6 +178,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Overtrue\LaravelWechat\ServiceProvider::class,
 
     ],
 
@@ -230,7 +231,7 @@ return [
         //下面两个5.2版本以后使用
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-
+        'EasyWeChat' => Overtrue\LaravelWechat\Facade::class,
     ],
 
 ];

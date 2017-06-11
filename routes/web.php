@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', 'WwController@index');
+Route::get('/main', 'WwController@index');
 //Route::get('/index/{id}', 'WwController@show');
 //Route::get('/result','WwController@storee');
 Route::post('/result','WwController@storee');
